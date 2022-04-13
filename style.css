@@ -81,3 +81,18 @@ img {
     grid-column: 1 /-1;
     border: 3px solid #fd6b3a;
 }
+
+.left1,
+.left2,
+.right1,
+.right2 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    justify-content: center;
+}
+
+.left1,
+.right1,
+.right2 {
+    color: white;
+}
